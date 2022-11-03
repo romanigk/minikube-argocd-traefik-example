@@ -9,7 +9,7 @@
 .setup local directory and minikube
 [source,bash]
 ----
-git clone https://github.com/dhenne/minikube-argocd-traefik-example
+git clone https://github.com/romanigk/minikube-argocd-traefik-example
 minikube start --driver=docker
 ----
 
