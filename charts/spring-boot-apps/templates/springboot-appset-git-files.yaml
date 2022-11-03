@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/dhenne/spring-boot-service
+        repoURL: https://github.com/romanigk/spring-boot-service
         revision: HEAD
         files:
           - path: "deployment/multisource-files/**.yaml"
@@ -15,7 +15,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://dhenne.github.io/helm-charts/
+        repoURL: https://romanigk.github.io/helm-charts/
         chart: spring-boot-helm-demo
         targetRevision: 0.2.1
         helm:

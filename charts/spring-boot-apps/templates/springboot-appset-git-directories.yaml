@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/dhenne/spring-boot-service
+        repoURL: https://github.com/romanigk/spring-boot-service
         revision: HEAD
         directories:
           - path: "deployment/helm/*"
@@ -15,7 +15,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/dhenne/spring-boot-service
+        repoURL: https://github.com/romanigk/spring-boot-service
         path: '{{`{{path}}`}}'
         targetRevision: HEAD
       destination:
